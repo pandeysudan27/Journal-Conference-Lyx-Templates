@@ -1,0 +1,1062 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass sims
+\begin_preamble
+
+\hypersetup{%
+  pdftitle  = {Latex Template for the SIMS2017 Conference},
+  pdfauthor = {Author Name1, Author Name2},
+  pdfsubject = {58th SIMS Conference 2017},
+  pdfkeywords = {SIMS2017, confercence, LaTeX, template},
+  colorlinks,hidelinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black,
+  pdfpagelayout = SinglePage,
+  pdfcreator = pdflatex,
+  pdfproducer = pdflatex}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+This is a place for 
+\series bold
+Paper Title and Author's Name.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Please, reuse the code incase of multiple affiliation.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%Enter Paper Title here!
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+title{SIMS 2019 Paper Title}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author[1]{Author Name}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author[1]{Author Name}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author[2]{Author Name}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+affil[1]{Department, University, Country, {
+\backslash
+small
+\backslash
+texttt{
+\backslash
+{name1,name2
+\backslash
+}@university.org}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+affil[2]{Company, Country, {
+\backslash
+small
+\backslash
+texttt{name3@company}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+maketitle
+\backslash
+thispagestyle{empty} %% <-- you need this for the first page
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+This template shows the guidelines on how to create a paper to be submitted
+ to the SIMS 2019 Conference.
+ Templates are available for both the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\backslash
+
+\end_layout
+
+\end_inset
+
+ and Microsoft Word environment.
+ This particular template document should work with pdf
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\backslash
+
+\end_layout
+
+\end_inset
+
+ which is a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\backslash
+
+\end_layout
+
+\end_inset
+
+ variant which directly outputs PDF files instead of postscript files.
+ However, if required it can be adapted to be used with a traditional 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\backslash
+
+\end_layout
+
+\end_inset
+
+ document processor
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Essentially by replacing the PDF files
+\family sans
+ figure1.pdf
+\family default
+ and 
+\family sans
+figure2.pdf
+\family default
+ by EPS files (Encapsulated PostScript format).
+\end_layout
+
+\end_inset
+
+ if there are any questions or suggestions regarding this template.
+\end_layout
+
+\begin_layout Abstract
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+This is a Place for 
+\series bold
+Keywords.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\backslash
+emph{Keywords: keyword1, keyword2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+In the following section, short style guidelines are given.
+\end_layout
+
+\begin_layout Subsection
+Title and Authors
+\end_layout
+
+\begin_layout Standard
+Words should be capitalized in the title, e.g., “This is an Example of a Correct
+ Title”.
+ The author information should at least include name, affiliation (department,
+ uni- versity, country).
+ Addresses and emails are optional but strongly recommended.
+\end_layout
+
+\begin_layout Subsection
+Abstract and Keywords
+\end_layout
+
+\begin_layout Standard
+The abstract should be written as one paragraph.
+ It is not recommended to exceed 150 words.
+\end_layout
+
+\begin_layout Standard
+Appropriate keywords describing the content of the pa- per should be supplied
+ as a comma separated list.
+\end_layout
+
+\begin_layout Subsection
+Fonts
+\end_layout
+
+\begin_layout Standard
+For all standard body text 
+\shape italic
+Times New Roman
+\shape default
+ with regular font style, and font size 10.5pt should be used.
+ To emphasize a text or a word, use 
+\emph on
+italic font style
+\emph default
+.
+ For verbatim text embedded in running text, including code fragments, use
+ the style 
+\family typewriter
+\size small
+texttt
+\family default
+\size default
+ with font Courier New with size 9.5pt should be used (1pt smaller than running
+ text)
+\end_layout
+
+\begin_layout Standard
+For separate code examples, use the style font size 9 pt.
+\end_layout
+
+\begin_layout Standard
+Example:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+while x<20 loop
+\end_layout
+
+\begin_layout Plain Layout
+
+  x := x+y*2;
+\end_layout
+
+\begin_layout Plain Layout
+
+end while;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Figures
+\end_layout
+
+\begin_layout Standard
+Figures should be numbered and include a description text.
+ All figures should be referenced within the body text using the capitalized
+ word ``Figure'' followed by the figure number.
+ For example, Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:figure1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ shows a figure located inside one column and Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:figure2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ illustrates how a figure can span over two columns.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename resources/figure1.pdf
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:figure1"
+
+\end_inset
+
+An example of a figure that fits into one column.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+This is place for Two column figure.
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:figure2"
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{figure*}[t]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[width=0.9 
+\backslash
+textwidth]{resources/figure2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Another example of a figure that spans over two columns.}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+label{fig:figure2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{figure*}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:extab"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ illustrates the use of tables.
+ It uses the booktabs package which provides improved typesetting of tables.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Compiler Phase
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Lines
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BackEnd (from flat to sorted eq.syst.)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+29190
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Code generation (generated code)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35971
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Code generation (template source code)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8957
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FrontEnd (up to flat ) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+92192
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Scripting environment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21883
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Template language Susan compiler
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12119
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Utility modules
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12983
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Total size (excl.
+ generated code)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+194218
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:extab"
+
+\end_inset
+
+Sizes of compiler phases, lines of code.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Equations
+\end_layout
+
+\begin_layout Standard
+Equations should be numbered on right side, such as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+a_{1} & =b_{1}+c_{1}\\
+a_{2} & =b_{2}+c_{2}-d_{2}+e_{2}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Additional meaningless text
+\end_layout
+
+\begin_layout Standard
+This section contains additional text to bring the example length to three
+ pages
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ Quisque faucibus, arcu non malesuada condimentum, nibh est aliquet nunc,
+ in tempus nisi urna id dolor.
+ Suspendisse potenti.
+ Sed nec accumsan massa, porttitor placerat purus.
+ Mauris nibh tellus, lobortis ac posuere non, bibendum ut mi.
+ Etiam et quam at arcu gravida ullamcorper.
+ Donec eget tortor eros.
+ Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+ ac turpis egestas.
+ Donec quis odio tellus.
+ Integer consequat vulputate dolor, sit amet sodales nibh dapibus eu.
+ Quisque accumsan mauris tellus, ut sollicitudin sapien finibus in.
+ Fusce congue, mauris vestibulum vulputate commodo, quam leo faucibus purus,
+ id luctus augue est vitae dolor.
+ Suspendisse id ultrices diam, eget viverra diam.
+ Donec non sem mauris.
+ Fusce sagittis neque justo, in mollis felis luctus in.
+ Pellentesque tincidunt mauris a feugiat accumsan.
+ Nulla eget sem nisi.
+\end_layout
+
+\begin_layout Standard
+Cras enim tortor, luctus et vulputate vitae, condimentum quis massa.
+ Nullam fermentum, lectus a mattis laoreet, eros nunc interdum nibh, in
+ commodo justo ipsum quis mauris.
+ Donec imperdiet faucibus lacinia.
+ Phasellus malesuada porta arcu, nec molestie dui posuere quis.
+ Donec porttitor, tellus id egestas feugiat, dui quam luctus dui, vel ornare
+ metus lorem sit amet ex.
+ Sed bibendum convallis condimentum.
+ Vivamus eu consectetur felis.
+ Sed turpis nisi, malesuada id augue eu, semper pulvinar metus.
+ Nullam id ante sed mauris bibendum iaculis.
+ Proin rhoncus justo mauris, vel iaculis nunc rhoncus in.
+ Aenean nec lectus non eros mollis lacinia.
+ Fusce at massa in nunc scelerisque egestas.
+ Nulla in turpis ante.
+ Quisque luctus at velit vitae iaculis.
+\end_layout
+
+\begin_layout Standard
+Etiam nec sapien risus.
+ Duis lorem felis, varius et purus at, malesuada pellentesque enim.
+ Fusce lobortis ac elit eget feugiat.
+ Nam purus libero, aliquam eu urna quis, volutpat eleifend leo.
+ Ut a volutpat felis.
+ Praesent lobortis sapien nunc, vel mattis nisi laoreet et.
+ Praesent elementum ex a fringilla pulvinar.
+ Vestibulum condimentum elementum pharetra.
+ Mauris condimentum tempus risus, tincidunt viverra velit.
+ Proin dictum ligula lectus, vitae euismod ligula rutrum non.
+ Nunc non enim ultrices, sollicitudin nibh ut, lacinia ex.
+ Nullam ac ullamcorper ante.
+ Nullam tristique laoreet enim, sit amet suscipit risus imperdiet non.
+ Vivamus id turpis egestas, viverra mauris non, sagittis purus.
+\end_layout
+
+\begin_layout Standard
+Phasellus eget lobortis magna.
+ Mauris faucibus elit eget magna gravida, nec ultrices eros consectetur.
+ Quisque porttitor tincidunt nunc vitae gravida.
+ Vestibulum laoreet tempus feugiat.
+ Etiam sit amet molestie urna.
+ Praesent libero nisi, sollicitudin accumsan ullamcorper auctor, mollis
+ sed nulla.
+ Pellentesque consequat, nibh ac ultrices pulvinar, tortor enim aliquet
+ augue, non facilisis lorem arcu nec justo.
+ Vestibulum posuere a metus nec aliquam.
+ Quisque commodo, neque rhoncus scelerisque viverra, velit sapien mollis
+ tellus, et scelerisque est massa vitae risus.
+ Cras sollicitudin nisl sit amet suscipit lobortis.
+ Vivamus sit amet arcu rhoncus, varius nisi id, viverra leo.
+ In hac habitasse platea dictumst.
+ Pellentesque placerat sem rutrum condimentum elementum.
+ Cras euismod augue et luctus facilisis.
+\end_layout
+
+\begin_layout Standard
+Phasellus feugiat vehicula dolor, eu dapibus ex aliquam vitae.
+ Nunc tortor magna, lacinia id consectetur et, lacinia id enim.
+ Nunc at consectetur odio, ac blandit ex.
+ Aliquam pharetra mi vitae mauris maximus, in sagittis orci ultrices.
+ Curabitur sagittis tortor sem, ornare aliquet dolor congue vitae.
+ Etiam sed nunc ut leo gravida commodo.
+ Maecenas rhoncus odio id tortor blandit dignissim.
+ Proin sed tincidunt metus, eget pharetra odio.
+ Nullam et imperdiet nisl.
+ Praesent sagittis, nunc vel laoreet tristique, quam lorem varius quam,
+ ut varius est purus sit amet tellus.
+ Cras ac massa neque.
+ Aliquam pulvinar auctor elit in tincidunt.
+\end_layout
+
+\begin_layout Standard
+Maecenas iaculis odio at purus porta, ac tincidunt libero interdum.
+ Aliquam sed sapien leo.
+ Duis malesuada pharetra ex, eu vulputate est mattis at.
+ Cras et lacus ac quam pellentesque efficitur et ut purus.
+ Sed sed eros non justo gravida volutpat sed non libero.
+ Proin imperdiet pretium mattis.
+ Quisque sapien ex, dignissim vitae eleifend id, hendrerit at neque.
+ Sed ultrices ante purus, nec hendrerit urna congue sed.
+ Maecenas malesuada bibendum velit, convallis varius sapien volutpat vel.
+ Ut malesuada pretium orci, eu elementum leo malesuada id.
+ Etiam ullamcorper lobortis imperdiet.
+ Phasellus ornare bibendum ante vitae vestibulum.
+ Integer eu arcu sit amet ligula elementum blandit.
+\end_layout
+
+\begin_layout Standard
+Praesent suscipit, purus eget tempor placerat, lectus lorem facilisis odio,
+ at sagittis sapien leo ac justo.
+ Etiam suscipit quis nisl vel posuere.
+ Suspendisse vulputate arcu eu metus maximus, vitae scelerisque elit porta.
+ Aliquam pulvinar libero in libero interdum iaculis.
+ In metus ligula, vestibulum et ligula eu, sagittis mattis odio.
+ Duis in convallis lorem.
+ Nam at pharetra est.
+ Donec eleifend fringilla odio vitae placerat.
+ Integer sit amet eros eget odio condimentum placerat sit amet sed purus.
+ Nulla at ultrices velit.
+ Etiam ornare, purus non lacinia ullamcorper, nunc augue interdum magna,
+ quis laoreet ante risus id sapien.
+\end_layout
+
+\begin_layout Standard
+Aenean id leo gravida, sodales sem ut, imperdiet mauris.
+ Proin pellentesque libero laoreet libero volutpat, quis euismod nibh commodo.
+ Nam et dui vel augue convallis aliquam.
+ Mauris magna diam, ultricies eget placerat porttitor, hendrerit non mi.
+ Quisque pulvinar varius ex, sollicitudin vestibulum est cursus eu.
+ Sed lobortis volutpat massa sed bibendum.
+ Cras rutrum, sem sit amet iaculis egestas, nisi turpis vehicula ipsum,
+ eget congue risus enim vehicula turpis.
+ Curabitur sit amet tortor vitae augue tempor consequat.
+\end_layout
+
+\begin_layout Standard
+Vestibulum volutpat luctus arcu non elementum.
+ Donec sed lectus id sapien varius laoreet sit amet non nulla.
+ Morbi iaculis turpis tincidunt consectetur feugiat.
+ Donec orci dolor, sagittis in mi ut, gravida iaculis ante.
+ Quisque ut risus a leo laoreet aliquam nec non nulla.
+ Vestibulum ut ipsum vehicula, tempor tortor at, faucibus ipsum.
+ Aliquam varius enim id lacus sagittis, lacinia pretium ipsum aliquam.
+ Ut nulla velit, faucibus eget leo a, sollicitudin vehicula ante.
+ Donec leo ex, fermentum vel imperdiet in, venenatis commodo odio.
+ Donec lacinia bibendum erat ac venenatis.
+\end_layout
+
+\begin_layout Standard
+Nunc volutpat viverra turpis, sit amet porta nunc viverra vitae.
+ Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+ inceptos himenaeos.
+ Nullam ut gravida ex, non tincidunt sem.
+ Fusce ac mollis lacus.
+ Duis ac arcu pretium, maximus sapien sed, tristique nulla.
+ Fusce suscipit feugiat ornare.
+ Curabitur vitae accumsan mauris, non suscipit metus.
+ Sed venenatis, lectus sit amet porta blandit, velit arcu rhoncus leo, a
+ laoreet justo urna quis tortor.
+ Nullam faucibus nibh sed ornare sodales.
+ Nulla tempus velit neque, quis elementum dui accumsan ac.
+ Cras fermentum maximus ipsum sit amet volutpat.
+ Mauris consequat leo non finibus tristique.
+ Sed pulvinar risus varius aliquet imperdiet.
+ Vivamus egestas quis tellus vitae aliquet.
+\end_layout
+
+\begin_layout Section
+Bibliographic References
+\end_layout
+
+\begin_layout Standard
+The bibliographic reference list are shown at the end of the paper; starting
+ with an unnumbered heading 
+\emph on
+``References''
+\emph default
+.
+ The list of references should be sorted in alphabetic order according to
+ the first author's surname.
+\end_layout
+
+\begin_layout Standard
+Citations are stated within the body text using the name of the reference
+ enclosed within parentheses, e.g., 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pantelides:1988"
+literal "false"
+
+\end_inset
+
+.
+ If more than one reference is cited at the same place, the list should
+ be sorted, separated by semicolons and within parentheses, e.g., 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DuffReid:1978,Pierce:2002,Plotkin:1981"
+literal "false"
+
+\end_inset
+
+.
+ If possible, it is encouraged to use DOIs instead of URLs in the bibliography.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "example-paper"
+options "bibtotoc,authordate1"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
