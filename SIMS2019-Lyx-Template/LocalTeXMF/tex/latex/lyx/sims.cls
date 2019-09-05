@@ -85,7 +85,6 @@
 % Make headings nice and compact and make sure to use a new version
 \RequirePackage[compact]{titlesec}[2016/03/21]
 \RequirePackage{doi}             %% Create cor­rect hy­per­links for DOI num­bers
-
 % Process backend
 \newif\if@biber
 \@biberfalse%   %% we default to backend=bibtex
@@ -93,7 +92,6 @@
 \DeclareOption{backend=bibtex}{\@biberfalse}
 \DeclareOption{backend=biber}{\@bibertrue}
 \ProcessOptions% Process package options
-
 \if@biber %% Process backend option "biber"
   \RequirePackage[backend=biber,
                   style=authoryear]
@@ -109,7 +107,6 @@
   \let\sims@bibliography\bibliography
   \renewcommand{\bibliography}[1]{\bibliographystyle{plainnat}\small\sims@bibliography{#1}\normalsize}
 \fi
-
 % Professional tables
 \RequirePackage{booktabs}
 

@@ -1,0 +1,1028 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass micart
+\begin_preamble
+%\usepackage{array,booktabs} % For nice tables
+%\usepackage{amsmath,amssymb} % For nice maths
+%\usepackage{stfloats} % For putting double column floats on bottom of page
+\usepackage{hyperref}
+\usepackage{color}
+%\usepackage{flushend}
+\definecolor{darkgreen}{rgb}{0,0.75,0}
+
+\hypersetup{
+	pdfauthor={Geir Hovland, Pal Johan From, Lars Imsland, Jostein Bakkeheim, Morten Hovd},
+	pdftitle={Sample article for Modeling, Identification and Control based on pdfLaTeX},
+	pdfkeywords={MIC,pdflatex,vector graphics},
+	pdfsubject={MIC Journal Article},
+	colorlinks=true,
+	citecolor=darkgreen,
+	urlcolor=darkgreen,
+	pdfstartview=Fit,
+	pdfpagelayout=SinglePage,
+	pdfcreator=pdflatex,
+	pdfproducer=pdflatex}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "newtxmath" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+For some reasons, the first page should be created empty to match the template
+ of MIC.
+ More research is needed for why.
+ While submitting the paper the first paper needs to be omitted! The errors
+ should not be taken care the show output will create PDF which can be saved
+ to desired location from PDF engine.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Setting first page heading
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+firstpage{1}   % Set page number for first page
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+secondpage{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+MICvolume{31}   % Volume number
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+MICissue{1}     % Issue number
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+MICyear{2010}   % Year
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+MICdoi{mic.2010.1.1}   % Year, issue, paper number in issue
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+shorttitle{Hovland et.al., ``Sample article for MIC based on pdfLaTeX''}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Paper Title
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+title{Sample article for Modeling, Identification
+\backslash
+
+\backslash
+ and Control based on pdfLaTeX} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+For Authors
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% The optional argument to 
+\backslash
+author points to the 
+\backslash
+address, see below.
+\end_layout
+
+\begin_layout Plain Layout
+
+% The last argument, in this case {1}, turns on the superscript for the
+ authornames.
+\end_layout
+
+\begin_layout Plain Layout
+
+% Use {0} to turn this off.
+ The same applies to 
+\backslash
+address
+\end_layout
+
+\begin_layout Plain Layout
+
+% In general, when there is only one address, then {0} should be used, otherwise
+ {1}
+\end_layout
+
+\begin_layout Plain Layout
+
+% {2} is the same as {0], except that the address is centered.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author[UiA]{G.
+ Hovland}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author[IKT]{P.J.
+ From}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author[SINTEF]{L.
+ Imsland}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author[IKT]{J.
+ Bakkeheim}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author[IKT]{M.
+ Hovd}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+address[UiA]{Mechatronics Group, University of Agder, N-4898 Grimstad,
+\end_layout
+
+\begin_layout Plain Layout
+
+   Norway.
+ E-mail: 
+\backslash
+textsf{geir.hovland@uia.no}}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+address[IKT]{Department of Engineering Cybernetics, Norwegian
+\end_layout
+
+\begin_layout Plain Layout
+
+   University of Science and Technology, N-7491 Trondheim, Norway.
+\end_layout
+
+\begin_layout Plain Layout
+
+   E-mail: 
+\backslash
+textsf{
+\backslash
+{from,Jostein.Bakkeheim,Morten.Hovd
+\backslash
+}@itk.ntnu.no}}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+address[SINTEF]{SINTEF ICT, N-7465 Trondheim,
+\end_layout
+
+\begin_layout Plain Layout
+
+   Norway.
+ E-mail: 
+\backslash
+textsf{Lars.Imsland@sintef.no}}{1}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Abstract goes down
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+This is abstract.
+ You should know that abstract is great OK.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Write keywords down
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{keywords}
+\end_layout
+
+\begin_layout Plain Layout
+
+  Choose three to five representative keywords
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{keywords}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+maketitle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Introduction"
+
+\end_inset
+
+Introduction
+\end_layout
+
+\begin_layout Standard
+This is a sample article file for Modeling, Identifica- tion and Control,
+ illustrating the use of the class file micart.cls.
+ This class file is built upon the class file scrartcl.cls from the KOMA-script
+ bundle, which re- places the standard latex classes (article, book, report),
+ being inspired by european typographical standards.
+ The traditional 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ compiler generates a Postscript file and all figures used in the article
+ must be saved as Encapsulated Postscript.
+ To generate the final PDF file, a Postscript to PDF converter is needed.
+ pdfLaTeX is a variant of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ family of com- pilers which generates an output file directly to the PDF
+ format.
+ By using pdfLaTeX the final conversion step from Postscript is avoided.
+ pdfLaTeX can import many different types of image files, such as JPG, PNG
+ and PDF.
+ However, the formats JPG and PNG store images as bitmaps, and the quality
+ of the images are lower compared to vector graphics and the file size is
+ also normally larger.
+ MIC strives to keep the PDF file size as low as possible and the figure
+ quality as high as possible, hence using figures with vector graphics is
+ strongly encouraged.
+ From May 2009, MIC is again available in printed versions.
+ To produce the printed version, the page size is reduced from A4 by about
+ 20%.
+ Hence, to get the best quality in the printed version, the use of vector
+ graphics is strongly recommended.
+ Many programs can generate figures on vector graph- ics format.
+ The most common example is Matlab and the command ’print -deps’.
+ The print command works for 2D and 3D plots as well as Simulink block diagrams.
+ One excellent drawing program for 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ is WinFig (or XFig), which can save vector graphic figures both as Encapsulated
+ Postscript or directly as native 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ fig- ures.
+ The latter approach also allows 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ equations to be used inside the figures.
+ Another option to gen- erate vector graphics is to use Microsoft Visio
+ or Mi- crosoft Powerpoint by saving to the Windows Metafile format EMF.
+ To use vector graphics generated as Encapsulated Postscript directly with
+ pdfLaTeX, these figures must first be converted to vector graphics PDF
+ figures.
+ This conversion can be made using Ghostview (File - Con- vert - pdfwrite).
+ Otherwise, the PDF figures are imported into pdfLaTeX using the includegraphics
+ command in exactly the same way as EPS files usng the traditional 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ compiler.
+ The EMF format can be converted to EPS (for example by the freeware EMF2EPS
+ by Dirk Struve, 1999) and finally to vector graphic PDF by Ghostview.
+ To crop graphics from EPS files, it may be necessary to first perform ’PS
+ to EPS’ in Ghostview followed by ’Media - User De- fined (Width and Height)’
+ and finally ’File - Convert - pdfwrite - Properties - Page Offsets’.
+ Another advantage of using pdfLaTeX compared to the traditional 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ compiler, is the added options of the href package.
+ The href information must be supplied before begindocument and could look
+ as follows.
+\end_layout
+
+\begin_layout Section
+Figures
+\end_layout
+
+\begin_layout Standard
+The figure can be set up with Lyx going to Insert>Float>Figure.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename MIC-logo.pdf
+	lyxscale 45
+	width 45text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Figure-1-is"
+
+\end_inset
+
+Figure 1 is awesome.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Tables
+\end_layout
+
+\begin_layout Standard
+Table is Lyx is inserted going to Insert>Float>Table.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+This Table is awesome.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Value
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Parameter
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $m$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset Formula $b$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Equations
+\end_layout
+
+\begin_layout Standard
+The equations can be entered by Ctrl+shift+m.
+\begin_inset Formula 
+\begin{align}
+a & =b+c\\
+x^{2} & =y^{2}+z^{2}\\
+y & =e^{ax}sin(x)
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Dummy Text and Bibliography
+\end_layout
+
+\begin_layout Standard
+The bibliography citation is awesome 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Balchen88"
+literal "false"
+
+\end_inset
+
+.
+ Also citation more than one reference is more awesome 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hovd00,Hovd04,Hovd92"
+literal "false"
+
+\end_inset
+
+.
+ This is a sample article file for Modeling, Identifica- tion and Control,
+ illustrating the use of the class file micart.cls.
+ This class file is built upon the class file scrartcl.cls from the KOMA-script
+ bundle, which re- places the standard latex classes (article, book, report),
+ being inspired by european typographical standards.
+ The traditional 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ compiler generates a Postscript file and all figures used in the article
+ must be saved as Encapsulated Postscript.
+ To generate the final PDF file, a Postscript to PDF converter is needed.
+ pdfLaTeX is a variant of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ family of com- pilers which generates an output file directly to the PDF
+ format.
+ By using pdfLaTeX the final conversion step from Postscript is avoided.
+ pdfLaTeX can import many different types of image files, such as JPG, PNG
+ and PDF.
+ However, the formats JPG and PNG store images as bitmaps, and the quality
+ of the images are lower compared to vector graphics and the file size is
+ also normally larger.
+ MIC strives to keep the PDF file size as low as possible and the figure
+ quality as high as possible, hence using figures with vector graphics is
+ strongly encouraged.
+ From May 2009, MIC is again available in printed versions.
+ To produce the printed version, the page size is reduced from A4 by about
+ 20%.
+ Hence, to get the best quality in the printed version, the use of vector
+ graphics is strongly recommended.
+ Many programs can generate figures on vector graph- ics format.
+ The most common example is Matlab and the command ’print -deps’.
+ The print command works for 2D and 3D plots as well as Simulink block diagrams.
+ One excellent drawing program for 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ is WinFig (or XFig), which can save vector graphic figures both as Encapsulated
+ Postscript or directly as native 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ fig- ures.
+ The latter approach also allows 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ equations to be used inside the figures.
+ Another option to gen- erate vector graphics is to use Microsoft Visio
+ or Mi- crosoft Powerpoint by saving to the Windows Metafile format EMF.
+ To use vector graphics generated as Encapsulated Postscript directly with
+ pdfLaTeX, these figures must first be converted to vector graphics PDF
+ figures.
+ This conversion can be made using Ghostview (File - Con- vert - pdfwrite).
+ Otherwise, the PDF figures are imported into pdfLaTeX using the includegraphics
+ command in exactly the same way as EPS files usng the traditional 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ compiler.
+ The EMF format can be converted to EPS (for example by the freeware EMF2EPS
+ by Dirk Struve, 1999) and finally to vector graphic PDF by Ghostview.
+ To crop graphics from EPS files, it may be necessary to first perform ’PS
+ to EPS’ in Ghostview followed by ’Media - User De- fined (Width and Height)’
+ and finally ’File - Convert - pdfwrite - Properties - Page Offsets’.
+ Another advantage of using pdfLaTeX compared to the traditional 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ compiler, is the added options of the href package.
+ The href information must be supplied before begindocument and could look
+ as follows.
+\end_layout
+
+\begin_layout Section*
+Acknowledgments
+\end_layout
+
+\begin_layout Standard
+I would like to thank myself.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "micartsam"
+options "mic"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
