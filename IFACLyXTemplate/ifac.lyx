@@ -1,0 +1,503 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass ifacconf
+\begin_preamble
+\usepackage{newlfont}
+\usepackage{graphicx}      % include this line if your document contains figures
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+This 
+\series bold
+a place from title to abastract
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{frontmatter}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+title{Style for Full Contributions: Use Title Case for
+\end_layout
+
+\begin_layout Plain Layout
+
+  Paper Title
+\backslash
+thanksref{footnoteinfo}} 
+\end_layout
+
+\begin_layout Plain Layout
+
+% Title, preferably not more than 10 words.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thanks[footnoteinfo]{Sponsor and financial support acknowledgment
+\end_layout
+
+\begin_layout Plain Layout
+
+goes here.
+ Paper titles should be written in uppercase and lowercase
+\end_layout
+
+\begin_layout Plain Layout
+
+letters, not all uppercase.}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author[First]{First A.
+ Author} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author[Second]{Second B.
+ Author, Jr.} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author[Third]{Third C.
+ Author}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+address[First]{National Institute of Standards and Technology, 
+\end_layout
+
+\begin_layout Plain Layout
+
+   Boulder, CO 80305 USA (e-mail: author@ boulder.nist.gov).}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+address[Second]{Colorado State University, 
+\end_layout
+
+\begin_layout Plain Layout
+
+   Fort Collins, CO 80523 USA (e-mail: author@lamar.
+ colostate.edu)}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+address[Third]{Electrical Engineering Department, 
+\end_layout
+
+\begin_layout Plain Layout
+
+   Seoul National University, Seoul, Korea, (e-mail: author@snu.ac.kr)}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{abstract}:                % Abstract of not more than 250 words.
+\end_layout
+
+\begin_layout Plain Layout
+
+These instructions give you guidelines for preparing papers for the $10^{
+\backslash
+mathrm{th}}$ Vienna Conference on Mathematical Modelling.
+ Please use this document as a template to prepare your manuscript.
+ For submission guidelines, follow instructions on paper submission system
+ as well as the event website.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Full contributions for the $10^{
+\backslash
+mathrm{th}}$ Vienna Conference on Mathematical Modelling are limited to
+ 6 pages.
+ Please keep the abstract of your paper within a limit of approximately
+ 300 words.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{abstract}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{keyword}
+\end_layout
+
+\begin_layout Plain Layout
+
+Five to ten keywords, preferably chosen from the IFAC keyword list.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{keyword}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{frontmatter}
+\end_layout
+
+\begin_layout Plain Layout
+
+%===============================================================================
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+This document is a template for 
+\backslash
+LaTeXe.
+ If you are reading a paper or PDF version of this document, please download
+ the electronic file 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+texttt{ifacconf.tex}
+\end_layout
+
+\end_inset
+
+.
+ You will also need the class file 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+texttt{ifacconf.cls}
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+Procedure for Paper Submission
+\end_layout
+
+\begin_layout Standard
+Next we see a few subsections.
+\end_layout
+
+\begin_layout Section
+Abstract and Keywords
+\end_layout
+
+\begin_layout Standard
+For submission guidelines, follow instructions on paper submission system
+ as well as the event website.
+ 
+\end_layout
+
+\begin_layout Standard
+Note that the $10^{
+\backslash
+mathrm{th}}$ Vienna Conference on Mathematical Modelling imposes a strict
+ page limit of 6 pages for full contributions, so it will be better for
+ you to prepare your initial submission in the camera ready layout so that
+ you will have a good estimate for the paper length.
+ Additionally, the effort required for final submission will be minimal.
+\end_layout
+
+\begin_layout Section
+Abstract and Keywords
+\end_layout
+
+\begin_layout Standard
+For submission guidelines, follow instructions on paper submission system
+ as well as the event website.
+ 
+\end_layout
+
+\begin_layout Standard
+Note that the $10^{
+\backslash
+mathrm{th}}$ Vienna Conference on Mathematical Modelling imposes a strict
+ page limit of 6 pages for full contributions, so it will be better for
+ you to prepare your initial submission in the camera ready layout so that
+ you will have a good estimate for the paper length.
+ Additionally, the effort required for final submission will be minimal.
+\end_layout
+
+\begin_layout Section
+Abstract and Keywords
+\end_layout
+
+\begin_layout Standard
+For submission guidelines, follow instructions on paper submission system
+ as well as the event website.
+ 
+\end_layout
+
+\begin_layout Standard
+Note that the $10^{
+\backslash
+mathrm{th}}$ Vienna Conference on Mathematical Modelling imposes a strict
+ page limit of 6 pages for full contributions, so it will be better for
+ you to prepare your initial submission in the camera ready layout so that
+ you will have a good estimate for the paper length.
+ Additionally, the effort required for final submission will be minimal.
+\end_layout
+
+\begin_layout Standard
+For submission guidelines, follow instructions on paper submission system
+ as well as the event website.
+ 
+\end_layout
+
+\begin_layout Standard
+Note that the $10^{
+\backslash
+mathrm{th}}$ Vienna Conference on Mathematical Modelling imposes a strict
+ page limit of 6 pages for full contributions, so it will be better for
+ you to prepare your initial submission in the camera ready layout so that
+ you will have a good estimate for the paper length.
+ Additionally, the effort required for final submission will be minimal.For
+ submission guidelines, follow instructions on paper submission system as
+ well as the event website.
+ 
+\end_layout
+
+\begin_layout Standard
+Note that the $10^{
+\backslash
+mathrm{th}}$ Vienna Conference on Mathematical Modelling imposes a strict
+ page limit of 6 pages for full contributions, so it will be better for
+ you to prepare your initial submission in the camera ready layout so that
+ you will have a good estimate for the paper length.
+ Additionally, the effort required for final submission will be minimal.For
+ submission guidelines, follow instructions on paper submission system as
+ well as the event website.
+ 
+\end_layout
+
+\begin_layout Standard
+Note that the $10^{
+\backslash
+mathrm{th}}$ Vienna Conference on Mathematical Modelling imposes a strict
+ page limit of 6 pages for full contributions, so it will be better for
+ you to prepare your initial submission in the camera ready layout so that
+ you will have a good estimate for the paper length.
+ Additionally, the effort required for final submission will be minimal.For
+ submission guidelines, follow instructions on paper submission system as
+ well as the event website.
+ 
+\end_layout
+
+\begin_layout Standard
+Note that the $10^{
+\backslash
+mathrm{th}}$ Vienna Conference on Mathematical Modelling imposes a strict
+ page limit of 6 pages for full contributions, so it will be better for
+ you to prepare your initial submission in the camera ready layout so that
+ you will have a good estimate for the paper length.
+ Additionally, the effort required for final submission will be minimal.
+\end_layout
+
+\begin_layout Section
+Referencesss
+\end_layout
+
+\begin_layout Standard
+The reference is cite as 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Abl:56"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "ifacconf,example-paper"
+options "bibtotoc,unsrt"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
